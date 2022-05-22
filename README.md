@@ -6,7 +6,7 @@ A site serving as a brief introduction to folklore.
 
 These are some basic layouts of how the website will hopefully look upon completion. 
 
-![Wireframe of Home Page](wireframes\wireframehome.jpg)
+![Wireframe of Home Page](wireframes/wireframehome.jpg)
 
 Header- This will serve as the site banner which will feature my own graphics.
 
@@ -16,7 +16,7 @@ Main Content- For this home page, it will mostly be a welcome and brief overview
 
 Footer- will include a few additional links, back to home, contact information, and any necessary copyright information.
 
-![Wireframe of Defintions Page](wireframes\wireframedefinitions.jpg)
+![Wireframe of Defintions Page](wireframes/wireframedefinitions.jpg)
 
 Header- This will serve as the site banner which will feature my own graphics.
 
@@ -26,7 +26,7 @@ Main Content- For this page, there will be a bulleted list of important historic
 
 Footer- will include a few additional links, back to home, contact information, and any necessary copyright information.
 
-![Wireframe of Adaptations Page](wireframes\wireframeadaptations.jpg)
+![Wireframe of Adaptations Page](wireframes/wireframeadaptations.jpg)
 
 Header- This will serve as the site banner which will feature my own graphics.
 
