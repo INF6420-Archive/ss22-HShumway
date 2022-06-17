@@ -80,7 +80,7 @@ ul.main-nav {
     background-color: rgb(206, 193, 189);
   }
   
-  li {
+  .main-nav li {
     float: left;
   }
   
