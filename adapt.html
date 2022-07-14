@@ -46,12 +46,24 @@
         </div>
     </main>
     <footer>
-        <div class="footer-column">
+        <div class="footer-column-a">
             <h3>Contact Me</h3>
-            <p>Hannah Shumway- gb4185@wayne.edu</p>
-            <h3>Further Reading</h3>
-            <p>The Dynamics of Folklore by Barre Toelken</p>
-        </div>
+            <form action="https://formspree.io/f/mayvgzoj" method="POST" class="validate">
+  <label for="name">Name
+  <input id="name" type="text" name="name" class="form-input">
+  </label>
+  <label for="email">Email
+  <input id="email" type="email" name="replyto" class="form-input" required>
+  </label>
+
+  <label for="message">Message
+  <textarea id="message" name="message" class="form-input" rows="3" required></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
+</div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
