@@ -115,7 +115,7 @@ li a {
     width: 50%;
     padding: 2rem;
     margin-right: 4rem;
-    max-width: 500px
+    max-width: 500px;
 }
 
 .featured-text-container h1 {
@@ -124,37 +124,99 @@ li a {
 }
 
 .featured-text-container p {
-    font-size: 1.75rem
+    font-size: 1.75rem;
 }
 
-  .footer-column {
+form {
+  display: block;
+  font-weight: 600;
+}
+
+.error {
+  border-color: rgb(191, 38, 21);
+}
+
+.error-message {
+  color: rgb(191, 38, 21);
+  margin: 0.25em 0 0.25em;
+}
+
+label {
+display: block;
+font-weight: 600;
+margin-bottom: 0.25em;
+}
+
+.form-input {
+border: 2px solid darkgoldenrod;
+border-radius: 3px;
+font-size: 10px;
+padding: 0.5em;
+margin-bottom: 0.5em;
+width: 100%;
+}
+
+@media screen and (min-width: 1065px) {
+  form {
+    width: 50%;
+    margin: 1em;
+  }
+  .footer-column-a {
+    max-width: 300px;
+  }
+  
+}
+
+.form-input:focus {
+outline: none;
+border: 2px solid rgb(44, 32, 1);
+}
+
+[type="submit"] {
+  border: 3px solid;
+  border-radius: 3px;
+  background: rgb(185, 167, 162);
+  color:rgb(54, 4, 4);
+  font-size: 16px;
+  padding: 0.25em;
+  width: 50%;
+  margin-left: 55px;
+  cursor: pointer;
+}
+
+[type="submit"]:hover,
+[type="submit"]:focus {
+  background: rgb(141, 121, 115);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.footer-column-a {
     padding: 0 0 1rem;
-    flex-grow: 1;
     margin-right: 2rem;
     background-color: rgb(206, 193, 189);
     width: 50%;
-    column-count: 2;
   }
 
   .footer-column:not(:last-child) {
-    margin-bottom: 1rem
+    margin-bottom: 0.5rem;
   }
 
-  .footer-column h3 {
+  .footer-column h2 {
     text-transform: uppercase;
     font-weight: 350;
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
-.footer-column p,
-.footer-column address,
-.footer-column a {
-    font-size: 1rem;
+.footer-column-a {
+    color: rgb(54, 4, 4)
 }
 
-.footer-column a {
-    color: rgb(54, 4, 4)
+.footer-column-b {
+float:right;
 }
 
 .history-list {
@@ -204,3 +266,4 @@ li.history-list {
 .folklore-differences-graphic img {
     max-height: 70vh;
 }
+
