@@ -100,7 +100,10 @@ li a {
     display: inline-block;
     position: relative;
     float: none;
+    margin-left: 10px;
     width: 50%;
+    height: 750px;
+    width: 750px;
     border-style: solid;
     border-color: rgb(103, 12, 2);
     border-radius: 6px;
@@ -230,17 +233,31 @@ float:right;
     padding: 4rem;
 }
 
-li.history-list {
+.history-list {
     padding: 1.5rem;
+    width: 50%;
+    margin-top: 10px;
 }
 
+.relatives-float {
+  width: 50%;
+}
+
+.relatives-flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.relative-fairytales {
+}
+
+
 .atu-index {
-    float: left;
-    width: 33.3%;
     padding: 2rem;
     margin-right: 4rem;
-    margin-top: 28rem;
-    max-width: 500px
+    margin-top: 36rem;
+    max-width: 900px
 }
 
 .atu-index h1 {
@@ -253,13 +270,14 @@ li.history-list {
 }
 
 .folklore-differences-graphic {
-    display: inline;
+    display: flex;
     position: relative;
     float: left;
-    width:33.3%;
+    width:35%;
     border-style: solid;
     border-color: rgb(103, 12, 2);
     border-radius: 6px;
+    margin-top: 10px;
     margin-left: 1.5rem;
 }
 
